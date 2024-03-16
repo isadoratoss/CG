@@ -46,7 +46,7 @@ Movendo Texto: Define os atrbitos da classe MECMovimento que serão renderizados
 
 </p>
 <h5>2.Métodos:</h5>
-/p>
+<p>
 RUN: Executa o jogo e seta comandos
 
 </p>
