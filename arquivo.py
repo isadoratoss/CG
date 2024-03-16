@@ -50,23 +50,27 @@ while True:
     texto_rect.y += velocidade_y 
     
     if texto_rect.right >= Largura:
-        velocidade_x = random.randint(-1, 1)
+        velocidade_x = random.randint(-1, 0)
         velocidade_y = random.randint(-1, 1)
-        texto = fonte.render("Isa", True, VERMELHO)    
-    if texto_rect.left <=1:
-         velocidade_x = random.randint(-1, 1)
+        cor_texto = (random.randint(0,255),random.randint(0,255),random.randint(0,255))
+        texto = fonte.render("ISA", True, cor_texto)    
+    if texto_rect.left <=0:
+         velocidade_x = random.randint(0, 1)
          velocidade_y = random.randint(-1, 1)
-         texto = fonte.render("Isa", True, VERMELHO)
-    if texto_rect.top >= Altura:
-        velocidade_y = random.randint (-1, 1)
+         cor_texto = (random.randint(0,255),random.randint(0,255),random.randint(0,255))
+         texto = fonte.render("ISA", True, cor_texto)
+    if texto_rect.top <= 0:
+        velocidade_y = random.randint (0, 1)
         velocidade_x = random.randint (-1, 1)
         #velocidade_y = -velocidade_y
-        texto = fonte.render("ISA", True, ROSA)   
-    if texto_rect.bottom <=1:
-        velocidade_y = random.randint (-1, 1)
+        cor_texto = (random.randint(0,255),random.randint(0,255),random.randint(0,255))
+        texto = fonte.render("Isa", True, cor_texto)  
+    if texto_rect.bottom >=Altura:
+        velocidade_y = random.randint (-1, 0)
         velocidade_x = random.randint (-1, 1)
         #velocidade_y = -velocidade_y   
-        texto = fonte.render("ISA", True, ROSA)
+        cor_texto = (random.randint(0,255),random.randint(0,255),random.randint(0,255))
+        texto = fonte.render("Isa", True, cor_texto)
         
         
     clock.tick(150)        
