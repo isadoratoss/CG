@@ -1,6 +1,7 @@
 <h1>Descrições da estrutura: </h1>
 <h2>
-1. Atributos
+1. Atributos </h2>
+<h2>
 2. Métodos 
 </h2>
 
