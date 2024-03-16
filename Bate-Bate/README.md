@@ -14,13 +14,18 @@
 <p>
 1. Atributos:
 Fonte = Determinar o tamanho da fonte do textoDefinir o tamanho da fonte
+
 Texto = Definir o texto em tela
+
 Largura = Definir largura da janela
+
 Altura Definir altura da janela       
 
 2. Métodos:
 Gerar numero não zero = Sorteio entre os número -1 e 1
+
 Move =  o texto na direção X e Y
+
 Cor texto = Sortear a cor do texto
 </p>
 
