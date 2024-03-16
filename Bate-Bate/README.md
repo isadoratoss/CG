@@ -46,7 +46,7 @@ Clock : Define o tempo de execução
 Movendo Texto: Define os atrbitos da classe MECMovimento que serão renderizados
 
 
-2. Métodos:
+2.Métodos:
 
 RUN: Executa o jogo e seta comandos
 
