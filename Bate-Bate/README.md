@@ -5,7 +5,7 @@
 2. Métodos 
 </h2>
 
-<h2>Diagarama UML: </h2>
+<h2>Diagrama UML: </h2>
 <div align=center>
 
 <img height="500em" src="./Imagens/Diagrama.PNG">
@@ -20,7 +20,7 @@ Texto = Definir o texto em tela
 
 Largura = Definir largura da janela
 
-Altura Definir altura da janela       
+Altura = Definir altura da janela       
 </p>
 <h5>2.Métodos: </h5>
 <p>
